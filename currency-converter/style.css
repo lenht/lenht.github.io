@@ -23,6 +23,7 @@ body{
     border-radius: 0.8em;  
 }
 
+
 .app-details{
     display: flex;
     align-items: center;
@@ -34,9 +35,10 @@ body{
 }
 
 .app-title{
-    font-size: 1.6em;
+    font-size: 150%;
     text-transform: uppercase;
     margin-bottom: 1em;
+    padding-top: 6%;
 }
 
 label{

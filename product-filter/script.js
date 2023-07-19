@@ -108,14 +108,14 @@ let products = {
         {
             productBarcode: "8809305611063",
             productName: "Altori Honey Flavored Chestnuts",
-            category: "Chesnuts",
+            category: "Chestnuts",
             price: "$2.96",
             image: "8809305611063.jpg",
         },
         {
             productBarcode: "8809691861783",
             productName: "Steamed Altori Chestnuts",
-            category: "Chesnuts",
+            category: "Chestnuts",
             price: "$1.69",
             image: "8809691861783.jpg",
         },

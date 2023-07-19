@@ -211,11 +211,11 @@ function filterProduct(value){
         }
     });
 
-    //select all cards
-    let elements = document.querySelectorAll(".card");
-    //loop through all cards
-    elements.forEach((element) => {
-        //display all cards on 'all' button click
+      //select all cards
+      let elements = document.querySelectorAll(".card");
+      //loop through all cards
+      elements.forEach((element) => {
+          //display all cards on 'all' button click
         if (value == "All") 
             {
                 element.classList.remove("hide");
@@ -269,5 +269,5 @@ document.getElementById("search-input").addEventListener("keyup", (event) => {
 //Initially display all  products
 window.onload = () => {
     filterProduct("All");
-};
+}
         

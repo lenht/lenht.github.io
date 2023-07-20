@@ -56,14 +56,15 @@ body{
 
 #products{
     display:grid;
-    grid-template-columns: auto auto auto;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-column-gap: 1.5em;
     padding: 2em 0;
 }
 
 .card{
     background-color: #ffffff;
-    max-width: 18em;
+    /*max-width: 18em;*/
     margin-top: 1em;
     padding: 1em;
     border-radius: 5px;
@@ -77,7 +78,7 @@ body{
 img{
     max-width: 100%;
     object-fit: contain;
-    height: 15em;
+    /*height: 15em;*/
 }
 
 .container{
@@ -93,7 +94,7 @@ img{
     display: none;
 }
 
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
     img {
         max-width: 100%;
         object-fit: contain;
@@ -107,4 +108,4 @@ img{
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
-}
+}*/

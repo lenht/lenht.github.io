@@ -109,3 +109,10 @@ img{
         grid-column-gap: 1em;
     }
 }*/
+
+/*Limiting the size of the responsive cards in large screens*/
+@media screen and (min-width: 720px) {
+    .card{
+        max-width: 250px;
+    }
+  }

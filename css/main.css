@@ -2838,6 +2838,10 @@ blockquote {
   text-align: center;
 }
 
+.title-block-link:hover h2 {
+  color: #fca072;
+}
+
 .text-rotation {
   display: block;
   width: 100%;

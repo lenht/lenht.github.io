@@ -1451,6 +1451,10 @@ textarea.form-control, textarea.form-control:focus {
   color: #777;
   opacity: .7;
 }
+
+.cert-link:hover h4 {
+  text-decoration: underline;
+}
 /* --- End of Certificates --- */
 
 /* --- Contact Form --- */

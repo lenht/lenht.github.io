@@ -443,6 +443,10 @@ input[type="submit"]:focus {
   line-height: 1.2em;
 }
 
+.header-titles:hover h4{
+  color: #fca072;
+}
+
 /* --- Social Links --- */
 .social-links {
   margin: 20px 0;
@@ -2836,6 +2840,10 @@ blockquote {
   font-weight: 300;
   margin: 5px 0;
   text-align: center;
+}
+
+.title-block .sp-subtitle:hover {
+  color: #fca072;
 }
 
 .title-block-link:hover h2 {
